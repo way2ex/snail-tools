@@ -1,19 +1,18 @@
-# Snail
-Snail 是用来生成常用文件的命令行工具，可以用来快速给新工程添加一些配置文件，比如 `package.json`、`LICENSE` 等。
+# Snail-Tools
+Snail is collection of some tools to generate some common files，such as `package.json`、`LICENSE` and so on.
 
 ## Quickstart
-全局下载：
+Install globally:
 ```bash
-yarn add -g snail-cli
-# 或者 npm i -g snail-cli
+yarn add -g snail-tools
+# 或者 npm i -g snail-tools
 
 cd <your-repo-location>
 # 然后可以直接使用其中的命令
 snail init-pkg
 ```
 
-## 生成文件列表
+## Files that can be generated
 
 - `package.json`
 - `LICENSE`
-
