@@ -27,7 +27,7 @@ export const packageJson = {
 export const LICENSE: { [key: string]: string } = {
     MIT: `MIT License
 
-Copyright (c) Knissing
+Copyright (c) ${new Date().getFullYear()} Knissing
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
