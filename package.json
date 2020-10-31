@@ -17,7 +17,7 @@
   "scripts": {
     "build": "npm run clean:some && tsc -p .",
     "clean:some": "rm -rf ./lib",
-    "publish": "npm run build && npm version from-git && npm publish",
+    "publish-pkg": "npm run build && npm version from-git && npm publish",
     "watch-ts": "tsc -w"
   },
   "devDependencies": {
