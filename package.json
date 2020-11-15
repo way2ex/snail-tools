@@ -1,6 +1,6 @@
 {
   "name": "snail-tools",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "cli",
   "main": "index.js",
   "author": "Knissing <vac872089248@gmail.com>",
