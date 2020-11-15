@@ -1,0 +1,49 @@
+{
+    "name": "<%- pkgName %>",
+    "version": "0.0.1",
+    "private": true,
+    "description": "<%- description %>",
+    "keywords": [
+        <%- keywords.map(k => `"${k}"`).join(',\n') %>
+    ],
+    "license": "MIT",
+    "files": [
+        "bin",
+        "dist",
+        "src"
+    ],
+    "bin": {
+    },
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc --watch",
+        "build": "tsc",
+        "lint": "eslint . --ext .ts"
+    },
+    "homepage": "",
+    "bugs": "",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": {
+        "name": "Knissing",
+        "email": "vac872089248@gmail.com"
+    },
+    "dependencies": {
+        "typescript": "^4.0.5"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.6",
+        "@typescript-eslint/eslint-plugin": "^4.6.1",
+        "@typescript-eslint/parser": "^4.6.1",
+        "eslint": "^7.13.0",
+        "eslint-config-standard": "^16.0.1",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1"
+    },
+    "engines": {
+        "node": "10.17.0"
+    }
+}

@@ -16,3 +16,7 @@ snail init-pkg
 
 - `package.json`
 - `LICENSE`
+
+## Publish package
+
+
