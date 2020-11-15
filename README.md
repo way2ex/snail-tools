@@ -30,8 +30,14 @@ Then you should add an annotation tag with the name of new version:
 ```bash
 git tag -a v0.0.4 -m "add a new feature"
 ```
+The tag must be a valid version with a prefix `v`. You can also change the prefix using npm config :
+
+```bash
+npm config set tag-version-prefix ''
+```
 
 Finally, run publish script:
+
 ```bash
 yarn publish-pkg
 ```
